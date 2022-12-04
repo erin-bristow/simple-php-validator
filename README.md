@@ -1,5 +1,5 @@
 # simple-php-validator
-Bash script that executes the [PHP command line option](https://www.php.net/manual/en/features.commandline.options.php) `--syntax-check` on all files in a directory. No need to exclude non-PHP files - the script takes care of that.
+Bash script that executes the [PHP command line option](https://www.php.net/manual/en/features.commandline.options.php) `--syntax-check` on all files in a directory and subdirectories. No need to exclude non-PHP files - the script takes care of that. Also automatically excludes the third-party `/vendor` directory.
   
 ## How to Use
 Verify that your current shell is using bash. 
